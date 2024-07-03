@@ -1,0 +1,310 @@
+/*===================================
+ -------------SECTION 1---------------
+ ===================================== */
+
+
+
+ /*===================================
+ -------------SECTION 2---------------
+ ===================================== */
+
+
+
+ @media (max-width: 375px) {
+    .carousel-indicators.sec-2 {
+        position: relative;
+        right: 8px;
+        bottom: -209px;
+        left: 75px;
+        z-index: 2;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+    }
+}
+
+/* ===============Desktop ==================*/
+@media only screen and (min-width: 1025px) {
+    .bg-carousel {
+        background-color: rgba(255, 255, 255, 0.274);
+        height: 60vh;
+        width: 66vw;
+    }
+
+    .bg-inner-carousel {
+        background-color: rgba(255, 255, 255, 0.582);
+        height: 25vh;
+        display: grid;
+    }
+}
+
+/* ====================Mobile =====================*/
+@media only screen and (max-width: 600px) {
+    .bg-carousel {
+        background-color: rgba(255, 255, 255, 0.274);
+    }
+
+    .bg-inner-carousel {
+        background-color: rgba(255, 255, 255, 0.582);
+    }
+
+
+}
+
+/* =========================Tablet================== */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .bg-carousel {
+        background-color: rgba(255, 255, 255, 0.274);
+    }
+
+    .bg-inner-carousel {
+        background-color: rgba(255, 255, 255, 0.582);
+    }
+
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+
+    .bg-carousel {
+        background-color: rgba(255, 255, 255, 0.274);
+    }
+
+    .bg-inner-carousel {
+        background-color: rgba(255, 255, 255, 0.582);
+    }
+
+    .p-set {
+        border-right: 1px solid rgba(255, 255, 255, 0.274);
+        height: 55px;
+        font-size: 8px;
+        font-family: para-1;
+        padding: 2px;
+        line-height: 1;
+    }
+
+    .h-set {
+        border-right: 1px solid red;
+        padding: 1px;
+        font-family: heading-1;
+        font-size: 18px;
+    }
+
+    .carosel-img-set {
+        height: 20px;
+        width: 54px;
+        padding: 3px;
+    }
+
+    .p-sm-11 {
+        padding-left: 11rem;
+        /* padding-right: 5rem; */
+    }
+}
+
+ /*===================================
+ -------------SECTION 3---------------
+ ===================================== */
+
+
+ @media (max-width:375px) 
+{
+    .carousel-indicators.sec-3 {
+        position: relative !important;
+        /* right: 8px; */
+        bottom: -3px;
+        left: -50px;
+        z-index: 2;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+    }
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+    .bg-s3 {
+        background-image: url(media/bg-sm-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .carousel-indicators.sec-3 {
+        position: relative !important;
+        bottom: -3px;
+        left: -50px;
+        z-index: 2;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+    }
+}
+
+@media (min-width: 800px) {
+    .bg-s3 {
+        background-image: url(media/bg-3.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+.card-bg {
+    background-color: #f5f5f5a1;
+    border: 4px solid #f0f0ee;
+    ;
+}
+
+.card-img-set {
+    height: 39px;
+    width: 108px;
+
+}
+
+.text-orange {
+    color: rgb(232, 146, 62);
+}
+
+.readmore-btn-set {
+    height: 28px;
+    width: 27px;
+}
+
+.card-size-set {
+    width: 13rem;
+    height: 18rem;
+}
+
+h1.card-title.text-orange.mx-1.mt-2.h1 {
+    font-size: 47px;
+}
+
+p.card-text.mx-1.mt-2.fs-4.p {
+    font-family: gilroy;
+}
+
+/*  */
+@media (max-width: 575.98px) {
+    .ms-xs-3 {
+        padding-left: 5rem;
+        margin-top: 1rem;
+    }
+
+    .bg-s3-2{
+       background-image:url(media/bg-sm-3-2.png);
+    }
+}
+
+/*  */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    .ps-sm-7 {
+        padding-bottom: 2rem !important;
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .card-size-set {
+        width: 8rem;
+        height: 13rem;
+    }
+
+    .card-img-set {
+        height: 23px;
+        width: 67px;
+
+    }
+
+    h1.card-title.text-orange.mx-1.mt-2.h1 {
+        font-size: 26px;
+    }
+
+    p.card-text.mx-1.mt-2.fs-4.p {
+        font-family: gilroy;
+        font-size: 12px;
+        line-height: 12px !important;
+    }
+
+    .readmore-btn-set {
+        height: 18px;
+        width: 17px;
+    }
+
+    /* .bg-s3 {
+        background-image: url(media/bg-md-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+
+
+    p {
+        font-size: 0.5rem;
+    }
+}
+
+ /*===================================
+ -------------SECTION 4---------------
+ ===================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .fs-2 {
+        font-size: 1rem!important;
+    }
+
+    .s-1{
+        height: 42px;
+        width: 42px;
+    }
+}
+
+@media (min-width: 1200px){
+.fs-2 {
+    font-size: 1rem!important;
+}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1080px){
+
+    .cus-img {
+        width: 30px;
+        height: 22px;
+    }
+    
+    .font-size-1{
+        font-size: 8px;
+    }
+    
+    .font-size-2{
+        font-size:6px
+    }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1349px){
+
+    .cus-img {
+        width: 30px;
+        height: 22px;
+    }
+    
+    .font-size-1{
+        font-size: 10px;
+    }
+    
+    .font-size-2{
+        font-size:11px
+    }
+}
+

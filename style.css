@@ -1,0 +1,310 @@
+:root {
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #2f31aa;
+    --bs-dark-blue:#2E2271;
+    --bs-paragraph-blue:#4a97c4;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+list-style-type: none;
+}
+
+
+/* anchor tag with none decoration */
+
+.text-para-blue{
+    color: var(--bs-paragraph-blue);
+}
+.text-heading-blue{
+    color: var(--bs-dark-blue);
+}
+.row {
+    margin-right: 0px;
+}
+
+.logo-2 {
+    width: 160px;
+}
+
+.bg-rect-1 {
+    background-color: darkblue;
+    height: 12px;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(249 244 244);
+}
+
+.nav-btn-color {
+    background-color: #086898;
+}
+
+.nav-btn-color:hover {
+    background-color: #14181a;
+}
+
+.bg-s1 {
+    background-image: url(media/bg-1.png);
+    background-repeat: no-repeat;
+    background-size: contain static;
+   
+    
+}
+
+
+.bg-para-1 {
+    background-color: rgba(245, 245, 245, 0.281);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 75%;
+    border: 2px solid #e7e97e;
+    border-radius: 6px;
+    margin-left: 2rem;
+
+}
+
+p {
+    font-size: 0.75rem;
+
+}
+
+.margin-left{
+    margin-left: 3rem;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%);
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 12px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.img-1-pos {
+    position: relative;
+    width: 100%;
+    top: 3rem;
+}
+
+.img-2-pos {
+    z-index: 2;
+    position: relative;
+    bottom: 5rem;
+    right: 12rem;
+    width: 100%;
+}
+
+.combineset {
+    width: 468px;
+    justify-content: center;
+}
+
+
+@font-face {
+    font-family: para-1;
+    src: url(fonts/poppins-cufonfonts/Poppins-BoldItalic.ttf);
+    font-family: heading-1;
+    src: url(fonts/Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf);
+}
+
+.font-p-1 {
+    font-family: para-1;
+}
+
+.font-h-1 {
+    font-family: heading-1;
+
+}
+
+p {
+    font-family: para-1
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: heading-1;
+}
+
+/*===================================
+ -------------SECTION 2---------------
+ ===================================== */
+
+.bg-s2 {
+    margin-top: 0px;
+    background-image: url(media/bg-2.png);
+    background-size: contain static;
+    background-repeat: no-repeat;
+    padding: 0 0;
+    background-position: bottom left;
+}
+
+.pb-6{
+    padding-bottom: 80px;
+}
+
+.p-set {
+    border-right: 1px solid rgba(255, 255, 255, 0.274);
+    height: 55px;
+    font-size: 12px;
+    font-family: para-1;
+    padding: 2px;
+}
+
+.h-set {
+    border-right: 1px solid red;
+    padding: 2px;
+    font-family: heading-1;
+
+}
+
+.carosel-img-set {
+    height: 49px;
+    width: 154px;
+    padding: 5px;
+}
+
+.pb-8 {
+    padding-bottom: 70px;
+}
+
+.carousel-indicators.sec-2 [data-bs-target] {
+    color: #4181A7;
+    background-color: #4182a798;
+    border-radius: 2px;
+    border-radius: 11px;
+    height: 7px;
+}
+
+.rounded-bottom{
+    border-bottom-left-radius: 3.25rem!important;
+    border-bottom-right-radius: 3.25rem!important;
+}
+
+
+
+/*===================================
+ -------------SECTION 3---------------
+ ===================================== */
+/* section 3.1 and 3.2 */
+
+.bg-grad{
+    background-image: linear-gradient(#ffffff, #95abff, #F8F9FA,#95abff ); 
+
+}
+
+/* added by new file */
+
+.hr-set {
+    border-top: 3px solid rgba(3, 8, 53, 0.911);
+
+}
+
+.carousel-indicators.sec-3 {
+    position: relative !important;
+    right: 8px;
+    left: -96px;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #fac002;
+    border-radius: 2px;
+    border-radius: 11px;
+    height: 7px;
+}
+
+.bg-s3-2{
+    background-image: url(media/bg-3.2.png);
+    background-size: cover static;
+    background-position: top left;
+    padding: 0 0;
+}
+
+/*===================================
+ -------------SECTION 4---------------
+ ===================================== */
+
+ .bg-s4{
+    background-image: linear-gradient(#95abff, rgb(4, 36, 83), rgb(4, 36, 83));
+    background-size: contain static;
+    background-repeat: no-repeat;
+ }
+
+.bg-dark-blue{
+    background-color: var(--bs-dark-blue);
+}
+/* button clock size */
+.s-1{
+    height: 45px;
+    width: 52px;
+}
+
+/* slider p-btn set */
+
+.p{
+    font-size: 12px;
+    padding-top:5px;
+}
+/* border-radius classes */
+
+.cus-rounded {
+    border-radius: 3.25rem!important;
+}
+.rounded-top {
+    border-top-right-radius: 3.25rem!important;
+    border-top-left-radius: 3.25rem!important;
+}
+
+.rounded-bottom{
+    border-bottom-left-radius: 3.25rem!important;
+    border-bottom-right-radius: 3.25rem!important;
+}
+
+.bg-tomato{
+    background-color: #E94E5D;
+}
+
+.cus-img {
+    width: 40px;
+    height: 32px;
+}
+
+.font-size-1{
+    font-size: 15px;
+}
+
+.font-size-2{
+    font-size:14px
+}
+
